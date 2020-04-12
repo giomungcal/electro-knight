@@ -1,0 +1,2943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587272, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &59932950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59932952}
+  - component: {fileID: 59932951}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &59932951
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59932950}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &59932952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59932950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 539.98, y: 833.34015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &769232728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769232730}
+  - component: {fileID: 769232729}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &769232729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769232728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8501573457f193f42bd1efa8d7daf7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: TypingSound
+    clip: {fileID: 8300000, guid: 9e22fbfe0cbc73c45a13e703457607a0, type: 3}
+    parameters:
+      Volume: 0.576
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: Thunder
+    clip: {fileID: 8300000, guid: caf001538eacc654196fc7bd7a30b527, type: 3}
+    parameters:
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: Correct
+    clip: {fileID: 8300000, guid: cd102e047c3d2c84287d15765dc7ae8a, type: 3}
+    parameters:
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: Wrong
+    clip: {fileID: 8300000, guid: f2b4652b19836744aacbb3b47ab8243f, type: 3}
+    parameters:
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: LevelUp
+    clip: {fileID: 8300000, guid: d3ce7926519f3bd48a2ca6f3f471f5f6, type: 3}
+    parameters:
+      Volume: 1
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 189f80a68c7cb1f42827e07baf13a62e, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: GIWin
+    clip: {fileID: 8300000, guid: e0cde5517a872b24cbbacc371eeb4f3e, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: RWin
+    clip: {fileID: 8300000, guid: ab847d884f32a034e838395e55c1ee2e, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: TFWin
+    clip: {fileID: 8300000, guid: 01dadcdbb37ca174dade3f65b7cbcbc0, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: QUWin
+    clip: {fileID: 8300000, guid: 401cf95fc9d3f3440bed5035d04b5f66, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: PWin
+    clip: {fileID: 8300000, guid: a4d8715caf33fc64ea4caf6dcd291d87, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: GILose
+    clip: {fileID: 8300000, guid: 42665f16ff1b68e4f97e40703700d219, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: RLose
+    clip: {fileID: 8300000, guid: b5aa4bf89bfa40a438922b13e2ac1ce8, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: TFLose
+    clip: {fileID: 8300000, guid: b5f7ed7a39534ff48b2e27741fa5e09d, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: QULose
+    clip: {fileID: 8300000, guid: 6bde9055e74b3da44b79b8d2d87b012b, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: PLose
+    clip: {fileID: 8300000, guid: 06d1c99af67d4644ab3658d5d501d916, type: 3}
+    parameters:
+      Volume: 0.889
+      Pitch: 1
+      Loop: 0
+    Source: {fileID: 0}
+  - name: OpeningTypeSound
+    clip: {fileID: 8300000, guid: 9e22fbfe0cbc73c45a13e703457607a0, type: 3}
+    parameters:
+      Volume: 0.933
+      Pitch: 0.5
+      Loop: 0
+    Source: {fileID: 0}
+  sourcePrefab: {fileID: 59932951}
+  startupTrack: 
+--- !u!4 &769232730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769232728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.7578, y: 491.0703, z: -8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &790577957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790577959}
+  - component: {fileID: 790577958}
+  m_Layer: 0
+  m_Name: DataController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &790577958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790577957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9caf6a300c4284fb2ecbc90644482e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuizUpData:
+  - name: Mystic Void
+    timeLimitInSeconds: 180
+    minimumWinningScore: 100
+    pointsAddedForCorrectAnswer: 10
+    questions:
+    - question: It creates binary digits that the computer uses and is the primary
+        building block of the CPU.
+      choices:
+      - choice: SPST
+        isCorrect: 0
+      - choice: Diode
+        isCorrect: 0
+      - choice: Chassis
+        isCorrect: 0
+      - choice: Transistor
+        isCorrect: 1
+    - question: It regulates electric current flow in a circuit.
+      choices:
+      - choice: Transistor
+        isCorrect: 0
+      - choice: Inductor
+        isCorrect: 0
+      - choice: Resistor
+        isCorrect: 1
+      - choice: Capacitor
+        isCorrect: 0
+    - question: It is the bipolar- conducting semiconductor device having four or
+        more alternating N-P-N-P layers.
+      choices:
+      - choice: P-N Junction Diode
+        isCorrect: 0
+      - choice: Thyristor
+        isCorrect: 1
+      - choice: Thermistor
+        isCorrect: 0
+      - choice: Bridge Rectifier
+        isCorrect: 0
+    - question: This device allows the flow of current only in one direction.
+      choices:
+      - choice: BJT
+        isCorrect: 0
+      - choice: Relay Switch
+        isCorrect: 0
+      - choice: Diode
+        isCorrect: 1
+      - choice: Current source
+        isCorrect: 0
+    - question: This type of capacitor is polarized, and its anode is made of metal
+        that forms an insulating oxide layer through anodization.
+      choices:
+      - choice: Electrolytic
+        isCorrect: 1
+      - choice: Ceramic
+        isCorrect: 0
+      - choice: Mica
+        isCorrect: 0
+      - choice: Air cap
+        isCorrect: 0
+    - question: _________ is used to move the cursor on computer screen.
+      choices:
+      - choice: Joystick
+        isCorrect: 0
+      - choice: Printer
+        isCorrect: 0
+      - choice: Mouse
+        isCorrect: 1
+      - choice: Tracker
+        isCorrect: 0
+    - question: This programmable electronic display module can display any custom
+        characters or animations.
+      choices:
+      - choice: LED
+        isCorrect: 0
+      - choice: SSD
+        isCorrect: 0
+      - choice: ASCII
+        isCorrect: 0
+      - choice: LCD
+        isCorrect: 1
+    - question: This Arduino microcontroller family consists of fifty-four digital
+        I/O pins.
+      choices:
+      - choice: Mega
+        isCorrect: 1
+      - choice: Giant
+        isCorrect: 0
+      - choice: Uno
+        isCorrect: 0
+      - choice: Leonardo
+        isCorrect: 0
+    - question: What type of diode permits current to flow in either forward or reverse
+        direction?
+      choices:
+      - choice: Gunn
+        isCorrect: 0
+      - choice: Zener
+        isCorrect: 1
+      - choice: Step recovery
+        isCorrect: 0
+      - choice: BARITT
+        isCorrect: 0
+    - question: ___________ enables adjusting the brightness of an LED without changing
+        any components in a circuit.
+      choices:
+      - choice: MOSFET
+        isCorrect: 0
+      - choice: Op-Amp
+        isCorrect: 0
+      - choice: Dimmer
+        isCorrect: 0
+      - choice: Pot
+        isCorrect: 1
+    - question: ____________ consists of two or more coils of wire used to transfer
+        electrical energy by means of changing magnetic field.
+      choices:
+      - choice: Adapter
+        isCorrect: 0
+      - choice: Winder
+        isCorrect: 0
+      - choice: Transformer
+        isCorrect: 1
+      - choice: Inductor
+        isCorrect: 0
+    - question: 'Given two inputs, this digital logic gate outputs HIGH when the inputs
+        are different and LOW when inputs are the same. '
+      choices:
+      - choice: AND
+        isCorrect: 0
+      - choice: NOT
+        isCorrect: 0
+      - choice: XOR
+        isCorrect: 1
+      - choice: NOR
+        isCorrect: 0
+    - question: What IC contains six independent gates in which each performs the
+        inverting logic function?
+      choices:
+      - choice: 7467
+        isCorrect: 0
+      - choice: 74o4
+        isCorrect: 1
+      - choice: 7412
+        isCorrect: 0
+      - choice: 7447
+        isCorrect: 0
+    - question: It is a high-precision temperature sensor.
+      choices:
+      - choice: MPR121
+        isCorrect: 0
+      - choice: LM35
+        isCorrect: 1
+      - choice: ACS712
+        isCorrect: 0
+      - choice: HC-SR5o1
+        isCorrect: 0
+    - question: This IC restricts output voltage to five volts for various ranges
+        of input range.
+      choices:
+      - choice: 72o5
+        isCorrect: 0
+      - choice: 74o5
+        isCorrect: 0
+      - choice: 76o5
+        isCorrect: 0
+      - choice: 78o5
+        isCorrect: 1
+    - question: 'This device consists of three terminals: drain, source, and gate.'
+      choices:
+      - choice: DGS
+        isCorrect: 0
+      - choice: FET
+        isCorrect: 1
+      - choice: PNP
+        isCorrect: 0
+      - choice: CBE
+        isCorrect: 0
+    - question: The ________________ can measure the resistance, inductance, and capacitance
+        of an electronic component.
+      choices:
+      - choice: Impedance meter
+        isCorrect: 0
+      - choice: LCR meter
+        isCorrect: 1
+      - choice: ESR meter
+        isCorrect: 0
+      - choice: Q meter
+        isCorrect: 0
+    - question: 'It has three parts: anode, cathode, and electrolyte.'
+      choices:
+      - choice: e-MOSFET
+        isCorrect: 0
+      - choice: LED
+        isCorrect: 0
+      - choice: Battery
+        isCorrect: 1
+      - choice: Electrolytic capacitor
+        isCorrect: 0
+    - question: It is also known as a voltage- dependent resistor.
+      choices:
+      - choice: Varistor
+        isCorrect: 1
+      - choice: Varactor
+        isCorrect: 0
+      - choice: Varicap
+        isCorrect: 0
+      - choice: Rheostat
+        isCorrect: 0
+    - question: Which resistive component is designed as temperature- sensitive?
+      choices:
+      - choice: Potentio- meter
+        isCorrect: 0
+      - choice: Photo- conductive cell
+        isCorrect: 0
+      - choice: Thermostat
+        isCorrect: 0
+      - choice: Thermistor
+        isCorrect: 1
+    - question: Which voltage source converts chemical energy to electrical energy?
+      choices:
+      - choice: ' Electrical generator'
+        isCorrect: 0
+      - choice: Battery
+        isCorrect: 1
+      - choice: Solar cell
+        isCorrect: 0
+      - choice: Electronic power supply
+        isCorrect: 0
+    - question: Which of the following equipment can check the condition of a transistor?
+      choices:
+      - choice: Current tracer
+        isCorrect: 0
+      - choice: Digital display meter
+        isCorrect: 0
+      - choice: Ohmmeter
+        isCorrect: 0
+      - choice: All of these
+        isCorrect: 1
+    - question: A photo- resistive device is called __________.
+      choices:
+      - choice: TRIAC
+        isCorrect: 0
+      - choice: LDR
+        isCorrect: 1
+      - choice: SCR
+        isCorrect: 0
+      - choice: Solar panel
+        isCorrect: 0
+    - question: "The determination of a digital signal\u2019s frequency and waveshape
+        is best accomplished by which test equipment?"
+      choices:
+      - choice: Multi- meter
+        isCorrect: 0
+      - choice: Spectrum analyzer
+        isCorrect: 0
+      - choice: Oscillo- scope
+        isCorrect: 1
+      - choice: Frequency generator
+        isCorrect: 0
+    - question: Which test equipment best allows a comparison between input and output
+        signals?
+      choices:
+      - choice: Frequency generator
+        isCorrect: 0
+      - choice: Logic probe
+        isCorrect: 0
+      - choice: Spectrum analyzer
+        isCorrect: 0
+      - choice: Multitrace oscilloscope
+        isCorrect: 1
+    - question: Which device would best aid in detecting shorted circuit or track?
+      choices:
+      - choice: Piezocrystal
+        isCorrect: 0
+      - choice: Current tracer
+        isCorrect: 1
+      - choice: Logic pulser
+        isCorrect: 0
+      - choice: Oscillator
+        isCorrect: 0
+    - question: Which of the following devices might be the best used to control an
+        electric motor?
+      choices:
+      - choice: Silicon- controlled switch
+        isCorrect: 0
+      - choice: Spectrum generator
+        isCorrect: 0
+      - choice: Silicon- controlled rectifier
+        isCorrect: 1
+      - choice: DIAC
+        isCorrect: 0
+    - question: If all the inputs are required to be HIGH for the output to be HIGH,
+        the gate must be _____.
+      choices:
+      - choice: AND
+        isCorrect: 1
+      - choice: NOR
+        isCorrect: 0
+      - choice: NAND
+        isCorrect: 0
+      - choice: NOT
+        isCorrect: 0
+    - question: This flip-flop is often used as a switch debouncer.
+      choices:
+      - choice: JK Flip- flop
+        isCorrect: 0
+      - choice: T     Flip- flop
+        isCorrect: 0
+      - choice: SR Flip- flop
+        isCorrect: 1
+      - choice: Tristable latch
+        isCorrect: 0
+    - question: ____________ is the computer hardware where currently used programs
+        and data are kept.
+      choices:
+      - choice: Motherboard
+        isCorrect: 0
+      - choice: ROM
+        isCorrect: 0
+      - choice: Firmware
+        isCorrect: 0
+      - choice: RAM
+        isCorrect: 1
+    - question: It introduces a dedicated point-to-point channel that allows the graphics
+        controller to directly access the system memory.
+      choices:
+      - choice: HDMI
+        isCorrect: 0
+      - choice: AGP
+        isCorrect: 1
+      - choice: DIMM
+        isCorrect: 0
+      - choice: RAID
+        isCorrect: 0
+    - question: The 74LS3o1 IC is also known as ________________.
+      choices:
+      - choice: 256 x 1-bit RAM
+        isCorrect: 1
+      - choice: Octal buffer
+        isCorrect: 0
+      - choice: 1024 x 8-bit PROM
+        isCorrect: 0
+      - choice: Quad D-Flip flops
+        isCorrect: 0
+    - question: What is the part number of a 32 x 8-bit Read-only Memory in the 74oo-
+        series IC family?
+      choices:
+      - choice: 7488
+        isCorrect: 1
+      - choice: 741o7A
+        isCorrect: 0
+      - choice: 7428o
+        isCorrect: 0
+      - choice: 74399
+        isCorrect: 0
+    - question: Shunting the AC component away from the load is the task of a ____________.
+      choices:
+      - choice: Transformer
+        isCorrect: 0
+      - choice: Filter
+        isCorrect: 1
+      - choice: Regulator
+        isCorrect: 0
+      - choice: Rectifier
+        isCorrect: 0
+    - question: TCS32oo sensor is also known a ________________.
+      choices:
+      - choice: Voltage sensor
+        isCorrect: 0
+      - choice: Pressure sensor
+        isCorrect: 0
+      - choice: Color sensor
+        isCorrect: 1
+      - choice: Ultrasonic sensor
+        isCorrect: 0
+    - question: What is LM393?
+      choices:
+      - choice: Comparator
+        isCorrect: 1
+      - choice: Multiplexer
+        isCorrect: 0
+      - choice: Timer IC
+        isCorrect: 0
+      - choice: Op-Amp
+        isCorrect: 0
+    - question: This memory device contains moving parts.
+      choices:
+      - choice: Thumb drive
+        isCorrect: 0
+      - choice: Hard disk drive
+        isCorrect: 1
+      - choice: Solid state drive
+        isCorrect: 0
+      - choice: Floppy disk
+        isCorrect: 0
+    - question: This compact disc can only be written once but can be read many times.
+      choices:
+      - choice: CD-RW
+        isCorrect: 0
+      - choice: Mini-CD
+        isCorrect: 0
+      - choice: WORM
+        isCorrect: 1
+      - choice: CD+G
+        isCorrect: 0
+    - question: __________ is a type of variable resistor whose resistance varies
+        based on humidity.
+      choices:
+      - choice: Humistor
+        isCorrect: 1
+      - choice: Rheostat
+        isCorrect: 0
+      - choice: Gasristor
+        isCorrect: 0
+      - choice: Humistat
+        isCorrect: 0
+    - question: What is a transducer that converts sound into electrical signal called?
+      choices:
+      - choice: Loudspeaker
+        isCorrect: 0
+      - choice: Diaphragm
+        isCorrect: 0
+      - choice: Microphone
+        isCorrect: 1
+      - choice: Trachea
+        isCorrect: 0
+    - question: The device used to limit voltage transients in electrical systems
+        is called?
+      choices:
+      - choice: LVDT
+        isCorrect: 0
+      - choice: Strain gauge
+        isCorrect: 0
+      - choice: Cut-off
+        isCorrect: 0
+      - choice: Snubber
+        isCorrect: 1
+    - question: This device measures electro- magnetic radiation through heating of
+        an absorbing material.
+      choices:
+      - choice: Hygrometer
+        isCorrect: 0
+      - choice: Bolometer
+        isCorrect: 1
+      - choice: Pellistor
+        isCorrect: 0
+      - choice: Faraday cup
+        isCorrect: 0
+    - question: It can measure rotation speed of a shaft or disk.
+      choices:
+      - choice: Tachometer
+        isCorrect: 1
+      - choice: XP meter
+        isCorrect: 0
+      - choice: Revolver
+        isCorrect: 0
+      - choice: Crystal
+        isCorrect: 0
+    - question: What is an electric signaling device that produces beeping sound for
+        alarm devices or timers?
+      choices:
+      - choice: Loud- speaker
+        isCorrect: 0
+      - choice: Relay bell
+        isCorrect: 0
+      - choice: Buzzer
+        isCorrect: 1
+      - choice: Resonator
+        isCorrect: 0
+    - question: ____________ was the first touchscreen phone launched in 1992.
+      choices:
+      - choice: IBM Simon
+        isCorrect: 1
+      - choice: Apple 1G
+        isCorrect: 0
+      - choice: GT-I75oo
+        isCorrect: 0
+      - choice: DynaTAC
+        isCorrect: 0
+    - question: It is the first phone to include dual SIM card functionality.
+      choices:
+      - choice: Micromax
+        isCorrect: 0
+      - choice: Duos
+        isCorrect: 0
+      - choice: HTC Desire
+        isCorrect: 0
+      - choice: Benefon Twin
+        isCorrect: 1
+    - question: Which of the choices is not an output device in a computer?
+      choices:
+      - choice: Headset
+        isCorrect: 0
+      - choice: SGD
+        isCorrect: 0
+      - choice: Braille embosser
+        isCorrect: 0
+      - choice: Stylus
+        isCorrect: 1
+    - question: This Arduino family has a built-in joystick.
+      choices:
+      - choice: Lilypad
+        isCorrect: 0
+      - choice: Esplora
+        isCorrect: 1
+      - choice: Gemma
+        isCorrect: 0
+      - choice: Yun
+        isCorrect: 0
+    - question: An electrical safety device designed to interrupt the circuit during
+        overcurrent conditions is called?
+      choices:
+      - choice: Ground
+        isCorrect: 0
+      - choice: Antisurge
+        isCorrect: 0
+      - choice: Fuse
+        isCorrect: 1
+      - choice: Detacher
+        isCorrect: 0
+    - question: Used in tuning circuits and filters, this allows DC to pass as it
+        blocks applied AC voltage.
+      choices:
+      - choice: Inductor
+        isCorrect: 1
+      - choice: Capacitor
+        isCorrect: 0
+      - choice: Switch
+        isCorrect: 0
+      - choice: Transistor base
+        isCorrect: 0
+    - question: _________________ is a heavily doped diode in which the electric current
+        decreases as the voltage increases.
+      choices:
+      - choice: Variode
+        isCorrect: 0
+      - choice: Avalanche diode
+        isCorrect: 0
+      - choice: Triode
+        isCorrect: 0
+      - choice: Esaki diode
+        isCorrect: 1
+    - question: This networking device provides service to another computer program
+        and its users.
+      choices:
+      - choice: Shell
+        isCorrect: 0
+      - choice: Client PC
+        isCorrect: 0
+      - choice: File manager
+        isCorrect: 0
+      - choice: Server
+        isCorrect: 1
+    - question: It provides interface between end-user device and network medium.
+      choices:
+      - choice: NIC
+        isCorrect: 1
+      - choice: Multiplexer
+        isCorrect: 0
+      - choice: Port
+        isCorrect: 0
+      - choice: Telnet
+        isCorrect: 0
+    - question: _________ is designed to receive, analyze, and move incoming packets
+        to another network.
+      choices:
+      - choice: Router
+        isCorrect: 1
+      - choice: Hub
+        isCorrect: 0
+      - choice: Modem
+        isCorrect: 0
+      - choice: Switch
+        isCorrect: 0
+    - question: Which of the following network devices relays communication data and
+        does not have intelligence?
+      choices:
+      - choice: WLAN
+        isCorrect: 0
+      - choice: Hub
+        isCorrect: 1
+      - choice: Cloud
+        isCorrect: 0
+      - choice: Passive bridge
+        isCorrect: 0
+    - question: The device designed to connect networks at data link layer of a LAN
+        is called ___________.
+      choices:
+      - choice: Token ring
+        isCorrect: 0
+      - choice: Trafficker
+        isCorrect: 0
+      - choice: Bridge
+        isCorrect: 1
+      - choice: Ethernet
+        isCorrect: 0
+    - question: It connects through an Ethernet cable as it converts analog voice
+        into data packets and vice versa.
+      choices:
+      - choice: IP phone
+        isCorrect: 1
+      - choice: PBX
+        isCorrect: 0
+      - choice: Cell phone
+        isCorrect: 0
+      - choice: ATM
+        isCorrect: 0
+    - question: _________ is a network security device that manages incoming and outgoing
+        network traffic.
+      choices:
+      - choice: Antivirus
+        isCorrect: 0
+      - choice: Firewall
+        isCorrect: 1
+      - choice: SSL
+        isCorrect: 0
+      - choice: Proxy server
+        isCorrect: 0
+    - question: This physical media is made up of very thin glass or plastic strands.
+      choices:
+      - choice: Abrasive
+        isCorrect: 0
+      - choice: Ceramic
+        isCorrect: 0
+      - choice: Coaxial
+        isCorrect: 0
+      - choice: Fiber optic
+        isCorrect: 1
+    - question: In computer networks, which of the choices is not an end user device?
+      choices:
+      - choice: PDA
+        isCorrect: 0
+      - choice: Printer
+        isCorrect: 0
+      - choice: Beacon
+        isCorrect: 1
+      - choice: Sniffer
+        isCorrect: 0
+    - question: What is the first commercially available general purpose digital computer?
+      choices:
+      - choice: UNIVAC I
+        isCorrect: 1
+      - choice: ENIAC
+        isCorrect: 0
+      - choice: IBM System /360
+        isCorrect: 0
+      - choice: Osborne
+        isCorrect: 0
+    - question: It consists of an electro- magnet which is used in switching that
+        requires isolation or high power.
+      choices:
+      - choice: Transistor
+        isCorrect: 0
+      - choice: Relay
+        isCorrect: 1
+      - choice: Choke
+        isCorrect: 0
+      - choice: Shunt
+        isCorrect: 0
+    - question: Which of the following diodes is made of a material called germanium?
+      choices:
+      - choice: 1N291C
+        isCorrect: 0
+      - choice: OA79
+        isCorrect: 1
+      - choice: US56663A
+        isCorrect: 0
+      - choice: PIC1650
+        isCorrect: 0
+    - question: What is Cisco 7960G?
+      choices:
+      - choice: Blade server
+        isCorrect: 0
+      - choice: IP phone
+        isCorrect: 1
+      - choice: AGS server
+        isCorrect: 0
+      - choice: Wireless LAN adaptor
+        isCorrect: 0
+    - question: This plug has three rectangular prongs that form an isosceles triangle
+        with fuse inside to protect cords from high-current circuits.
+      choices:
+      - choice: Type D
+        isCorrect: 0
+      - choice: Type E
+        isCorrect: 0
+      - choice: Type F
+        isCorrect: 0
+      - choice: Type G
+        isCorrect: 1
+    - question: A _________ is a device used to split the cable signal if the signal
+        must be sent between two or more devices.
+      choices:
+      - choice: Splitter
+        isCorrect: 1
+      - choice: Ethernet extender
+        isCorrect: 0
+      - choice: Power coax
+        isCorrect: 0
+      - choice: Sniffer
+        isCorrect: 0
+    - question: What device that works as a variable resistor whose terminal resistance
+        increases when it is bent called?
+      choices:
+      - choice: Flex sensor
+        isCorrect: 1
+      - choice: SEN-2304
+        isCorrect: 0
+      - choice: Humiture
+        isCorrect: 0
+      - choice: Membrane pot
+        isCorrect: 0
+    - question: What is the world's first camera phone?
+      choices:
+      - choice: LG K10
+        isCorrect: 0
+      - choice: Sharp V26
+        isCorrect: 0
+      - choice: Kyocera VP-210
+        isCorrect: 1
+      - choice: Siemens 3TF46
+        isCorrect: 0
+    - question: This filter passes all the frequencies in the lower band and stops
+        the frequencies in the higher band.
+      choices:
+      - choice: LPF
+        isCorrect: 1
+      - choice: HPF
+        isCorrect: 0
+      - choice: BPF
+        isCorrect: 0
+      - choice: BSF
+        isCorrect: 0
+    - question: What type of filter is described as exhibiting a nearly flat passband
+        with no ripple?
+      choices:
+      - choice: Elliptic
+        isCorrect: 0
+      - choice: Bessel
+        isCorrect: 0
+      - choice: Butterworth
+        isCorrect: 1
+      - choice: Chebyshev
+        isCorrect: 0
+  TrueOrFalseData:
+  - name: Polarity Forest
+    timeLimitInSeconds: 180
+    minimumWinningScore: 120
+    pointsAddedForCorrectAnswer: 10
+    questions:
+    - statement: The unit of measurement for the conductance of a resistor is Coulombs.
+      isTrue: 0
+    - statement: 'Switches are either on or off but can have multiple poles. '
+      isTrue: 1
+    - statement: 'A multimeter only measures voltage across a device. '
+      isTrue: 0
+    - statement: A reversed bias diode will act as an open switch.
+      isTrue: 1
+    - statement: Capacitance value is smaller if the distance between the plates of
+        a capacitor is greater.
+      isTrue: 1
+    - statement: A P-N structure is called a diode.
+      isTrue: 1
+    - statement: In a BJT, the current flowing at the base is equal to the sum of
+        currents flowing at the emitter and collector.
+      isTrue: 0
+    - statement: For normal operation of a PNP BJT, the base must be negative with
+        respect to emitter and positive with respect to collector.
+      isTrue: 1
+    - statement: The output of seventy HIGH inputs in an XOR gate is LOW.
+      isTrue: 1
+    - statement: The capacitor is useful in filtering circuits as it blocks AC while
+        passing DC.
+      isTrue: 0
+    - statement: Diodes rectify AC signals that are converted to DC signals.
+      isTrue: 1
+    - statement: The 741 IC has 8 pins.
+      isTrue: 1
+    - statement: The 7474 IC is also known as the BCD-to-7 segment decoder.
+      isTrue: 0
+    - statement: The leftmost pin of the 16x2 LCD module is the Read/Write configuration
+        pin.
+      isTrue: 0
+    - statement: A conventional 2-kilohm resistor consists of two black and one red
+        print color codes.
+      isTrue: 0
+    - statement: To operate as an amplifier, the emitter-base and collector-base junctions
+        of a transistor should be forward biased and reverse biased respectively.
+      isTrue: 1
+    - statement: Secondary batteries, unlike primary batteries, may be used only once.
+      isTrue: 0
+    - statement: Switches are used to open and close paths for current.
+      isTrue: 1
+    - statement: If the diode in a series circuit is reverse- biased, the resistor
+        will drop all the applied voltages.
+      isTrue: 0
+    - statement: A Zener diode can be used to regulate voltage in a power supply.
+      isTrue: 1
+    - statement: The positive lead of a diode is the cathode.
+      isTrue: 0
+    - statement: The longer leg of an LED is the positive pin.
+      isTrue: 1
+    - statement: The 1N4001 diode has a grey ring near the anode.
+      isTrue: 0
+    - statement: Galvanometers can measure small values of current.
+      isTrue: 1
+    - statement: Capacitors are often used as filters.
+      isTrue: 1
+    - statement: Capacitors in parallel have a higher total value than any individual
+        capacitor.
+      isTrue: 1
+    - statement: To operate properly, an oscillator requires an external AC input
+        signal.
+      isTrue: 0
+    - statement: A photodiode is a device that produces light.
+      isTrue: 0
+    - statement: A thermistor is a semiconductor device that acts like a piezoresistive
+        resistor.
+      isTrue: 0
+    - statement: A transducer converts energy from one form to another.
+      isTrue: 1
+    - statement: The output of a NAND gate is the same as the inverted output of an
+        AND gate.
+      isTrue: 1
+    - statement: The output of a NOT gate is the same as the inverted output of a
+        NOR gate with common inputs.
+      isTrue: 1
+    - statement: A two-input XNOR gate must generate LOW output if both inputs are
+        HIGH.
+      isTrue: 0
+    - statement: The XNOR gate is simply an OR gate followed by a NOT gate.
+      isTrue: 0
+    - statement: A cascade of 65,536 NOT gates will yield an output similar to that
+        of a single buffer.
+      isTrue: 1
+    - statement: A MOSFET has an isolated gate.
+      isTrue: 1
+    - statement: Schottky TTL logic gates overcome the problem of saturation delay
+        time.
+      isTrue: 1
+    - statement: CMOS integrated circuits consume less power than their TTL counterparts.
+      isTrue: 1
+    - statement: A digital voltmeter can be used to measure resistance.
+      isTrue: 1
+    - statement: A rheostat is not a type of variable resistor.
+      isTrue: 0
+    - statement: An ideal inductor would not dissipate any energy.
+      isTrue: 1
+    - statement: The primary winding of a transformer is the side connected to the
+        load.
+      isTrue: 0
+    - statement: The start-up gain of an oscillator must be less than 1.
+      isTrue: 0
+    - statement: Printers and scanners are input and output devices respectively.
+      isTrue: 0
+    - statement: The CPU holds the mobo, memory modules, and connectors for input
+        and output devices.
+      isTrue: 0
+    - statement: Intel 4004, the world's first commercially available microprocessor,
+        had exactly 4004 transistors.
+      isTrue: 0
+    - statement: The three terminals of BC547 transistor are emitter, collector, and
+        gate.
+      isTrue: 0
+    - statement: Triangular-wave oscillators can consist of op-amp comparator followed
+        by integrator.
+      isTrue: 1
+    - statement: The letters "H" and "I" in a QWERTY keyboard are adjacent.
+      isTrue: 0
+    - statement: A signal generator is an electronic test equipment that produces
+        an electrical signal from mechanical vibrations.
+      isTrue: 0
+    - statement: A frequency filter alters the amplitude or phase of an electrical
+        signal with respect to frequency.
+      isTrue: 1
+    - statement: The tolerance of a four-band resistor is 5% if its fourth band is
+        color gold.
+      isTrue: 1
+    - statement: The maximum possible value of a 100-mH inductor with 20% tolerance
+        is 150mH.
+      isTrue: 0
+    - statement: In a          loss-free transformer, both the primary and secondary
+        powers will be the same.
+      isTrue: 1
+    - statement: The total capacitance of two 2-mF capacitors connected in parallel
+        is 1-mF.
+      isTrue: 0
+    - statement: The resistance of a light-dependent resistor falls with increasing
+        light level.
+      isTrue: 1
+    - statement: Inductor is an electronic component that stores electrical energy
+        in the form of magnetic field.
+      isTrue: 1
+    - statement: Jack Kilby and Robert Noyce invented integrated circuit.
+      isTrue: 1
+    - statement: Solid-state drives are electro- mechanical devices.
+      isTrue: 0
+    - statement: 'USB Type-C connector system has 28 pins. '
+      isTrue: 0
+    - statement: Digital data captured in RFID tags are captured by a reader via radio
+        waves.
+      isTrue: 1
+    - statement: If an optical fiber has unreliable cladding, the transmitted signals
+        might be subjected to electromagnetic interference.
+      isTrue: 0
+    - statement: The flat area of a touchpad is sensitive to applied pressure.
+      isTrue: 1
+    - statement: An access point is required to connect a Bluetooth headset to a device.
+      isTrue: 0
+    - statement: A client is a computer designed to process requests and deliver data
+        to the server over the network.
+      isTrue: 0
+    - statement: The Ryzen 7 2800H is a mobile processor designed by semiconductor
+        firm AMD.
+      isTrue: 1
+    - statement: An alternator is a device that converts alternating current electrical
+        energy to mechanical energy.
+      isTrue: 0
+    - statement: A receiving antenna intercepts radio-frequency energy and delivers
+        alternating current to electronic equipment.
+      isTrue: 1
+    - statement: The main purpose of an o-scope is to graph an electrical signal as
+        it varies over time.
+      isTrue: 1
+    - statement: Rectifiers are embedded in various devices to convert restless AC
+        supply from outlets into a steady DC supply.
+      isTrue: 1
+  GuessItData:
+  - name: Guessing Cave
+    questions:
+    - symbolName: Wires
+      symbolImage: {fileID: 21300000, guid: bd7f483348d61be4c96350e2564bf0da, type: 3}
+      possibleAnswers:
+      - Wire
+      - Wires
+      - LAN
+      - Local Area Network
+    - symbolName: Terminal
+      symbolImage: {fileID: 21300000, guid: 43a1ea8d6a8fd454da8fa5aff3790ef0, type: 3}
+      possibleAnswers:
+      - Terminal
+      - Terminals
+    - symbolName: Rheostat
+      symbolImage: {fileID: 21300000, guid: 098154ba3c1100a418a97928639ce173, type: 3}
+      possibleAnswers:
+      - Rheostat
+      - Variable Resistor Rheostat
+      - Variable Resistor
+    - symbolName: Bus Line
+      symbolImage: {fileID: 21300000, guid: d647bbb53af34b841aa30ef8ce39d860, type: 3}
+      possibleAnswers:
+      - Bus Line
+      - Bus Lines
+      - Bus
+      - Line Bus
+    - symbolName: SPST
+      symbolImage: {fileID: 21300000, guid: f8be40d544ea9224cb04253909c484c7, type: 3}
+      possibleAnswers:
+      - SPST
+      - SPST Switch
+      - Switch SPST
+    - symbolName: SPDT
+      symbolImage: {fileID: 21300000, guid: 80fe2634401a76744b38dde8748589f3, type: 3}
+      possibleAnswers:
+      - SPDT
+      - SPDT Switch
+      - Switch SPDT
+    - symbolName: DPST
+      symbolImage: {fileID: 21300000, guid: dda088f6c02004e4198d96bc3ceb2795, type: 3}
+      possibleAnswers:
+      - DPST
+      - DPST Switch
+      - Switch DPST
+    - symbolName: Relay
+      symbolImage: {fileID: 21300000, guid: 745580515577bbc45a9b99a98ebe7bad, type: 3}
+      possibleAnswers:
+      - Relay
+      - Relay Switch
+      - Switch Relay
+    - symbolName: AC Supply
+      symbolImage: {fileID: 21300000, guid: 02ac624a553cd724382f5923f80441e2, type: 3}
+      possibleAnswers:
+      - AC
+      - AC Supply
+      - Supply AC
+      - AC Source
+      - Source AC
+    - symbolName: DC Supply
+      symbolImage: {fileID: 21300000, guid: 62c96ded52c20a24b8d638fec7245453, type: 3}
+      possibleAnswers:
+      - DC
+      - DC Supply
+      - Supply DC
+      - DC Source
+      - Source DC
+    - symbolName: Single Cell Battery
+      symbolImage: {fileID: 21300000, guid: d1c70d440e993934f93cad01741d2746, type: 3}
+      possibleAnswers:
+      - Cell
+      - Single Cell
+      - Single Cell Battery
+      - Single Battery
+      - Single Battery Cell
+      - Battery Cell
+      - Cell Battery
+      - Battery
+    - symbolName: Ground
+      symbolImage: {fileID: 21300000, guid: 38c0e7a4024c34944baa83d8c62e566d, type: 3}
+      possibleAnswers:
+      - Ground
+      - Earth
+    - symbolName: Signal Ground
+      symbolImage: {fileID: 21300000, guid: 45bf0db3b5df87a4c80c9489f4504c00, type: 3}
+      possibleAnswers:
+      - Signal
+      - Signal Ground
+      - Ground Signal
+    - symbolName: Chassis Ground
+      symbolImage: {fileID: 21300000, guid: 1221a5c266679f8478134d6427f0044f, type: 3}
+      possibleAnswers:
+      - Chassis
+      - Chassis Ground
+      - Ground Chassis
+    - symbolName: Preset
+      symbolImage: {fileID: 21300000, guid: 010bdaa849a53714aac4506294ddadc6, type: 3}
+      possibleAnswers:
+      - Preset
+      - Variable Resistor Preset
+      - Variable Resistor
+    - symbolName: Thermistor
+      symbolImage: {fileID: 21300000, guid: 8922671aecade2d4fa8e0ce7864e9c7c, type: 3}
+      possibleAnswers:
+      - Thermistor
+      - Variable Resistor Thermistor
+      - Variable Resistor
+    - symbolName: Varistor
+      symbolImage: {fileID: 21300000, guid: b446f34628d114244806073f2634c931, type: 3}
+      possibleAnswers:
+      - Varistor
+      - Variable Resistor Varistor
+      - Variable Resistor
+    - symbolName: LDR
+      symbolImage: {fileID: 21300000, guid: 41a1782fa6da7d843904c2ba91bedba2, type: 3}
+      possibleAnswers:
+      - LDR
+      - Light Dependent Resistor
+      - Variable Resistor LDR
+      - Variable Resistor
+    - symbolName: Attenuator
+      symbolImage: {fileID: 21300000, guid: db173c61ace243241b63d4fcec9217bf, type: 3}
+      possibleAnswers:
+      - Attenuator
+      - Variable Resistor Attenuator
+      - Variable Resistor
+    - symbolName: Memristor
+      symbolImage: {fileID: 21300000, guid: b09d134031512ee439fab3106cff987d, type: 3}
+      possibleAnswers:
+      - Memristor
+      - Variable Resistor Memristor
+      - Variable Resistor
+    - symbolName: Zener
+      symbolImage: {fileID: 21300000, guid: 85451fcca72af9f42828fc0535bcfbf4, type: 3}
+      possibleAnswers:
+      - Zener
+      - Zener Diode
+      - Diode Zener
+    - symbolName: Photodiode
+      symbolImage: {fileID: 21300000, guid: 91549887a99c7fc489f1cb7a4814d880, type: 3}
+      possibleAnswers:
+      - Photodiode
+      - Photo Diode
+    - symbolName: LED
+      symbolImage: {fileID: 21300000, guid: 30111f72c3eb59545a561b071941d838, type: 3}
+      possibleAnswers:
+      - LED
+      - Light Emitting Diode
+    - symbolName: Varactor
+      symbolImage: {fileID: 21300000, guid: 974199c45e6acd64ca8418ea50faeef2, type: 3}
+      possibleAnswers:
+      - Varactor
+      - Varactor Diode
+      - Diode Varactor
+    - symbolName: Shockley
+      symbolImage: {fileID: 21300000, guid: 7bdf056657b93be4d84c3e0c12a85e5a, type: 3}
+      possibleAnswers:
+      - Shockley
+      - Shockley Diode
+      - Diode Shockley
+    - symbolName: Schottky
+      symbolImage: {fileID: 21300000, guid: 80bc436232ed936419ef0c35093ebbef, type: 3}
+      possibleAnswers:
+      - Schottky
+      - Schottky Diode
+      - Diode Schottky
+    - symbolName: Tunnel
+      symbolImage: {fileID: 21300000, guid: 2c863060991adb542b7e6fd27432cb65, type: 3}
+      possibleAnswers:
+      - Tunnel
+      - Tunnel Diode
+      - Diode Tunnel
+    - symbolName: Thyristor
+      symbolImage: {fileID: 21300000, guid: b295f4c7bd6ba60449cd4a71864c22f6, type: 3}
+      possibleAnswers:
+      - Thyristor
+      - Thyristor Diode
+      - Diode Thyristor
+    - symbolName: Laser
+      symbolImage: {fileID: 21300000, guid: 12fb12d136d1b1a49a4236ca023bd14b, type: 3}
+      possibleAnswers:
+      - Laser
+      - Laser Diode
+      - Diode Laser
+    - symbolName: Phototransistor
+      symbolImage: {fileID: 21300000, guid: 024f72ad4af86d54ebc9f6d487aaca7d, type: 3}
+      possibleAnswers:
+      - Phototransistor
+      - Photo Transistor
+    - symbolName: And Gate
+      symbolImage: {fileID: 21300000, guid: 72ffc33ca48f97f4c97b15093f103b7b, type: 3}
+      possibleAnswers:
+      - And
+      - And Gate
+    - symbolName: Or
+      symbolImage: {fileID: 21300000, guid: 68a9507b8e425f34cbcab355d8ab7d33, type: 3}
+      possibleAnswers:
+      - Or
+      - Or Gate
+    - symbolName: Nand
+      symbolImage: {fileID: 21300000, guid: f357d4bf500907f45b93199f9e047079, type: 3}
+      possibleAnswers:
+      - Nand
+      - Nand Gate
+    - symbolName: Nor
+      symbolImage: {fileID: 21300000, guid: f5a23bb4f55c7ad4ba08f972c29d0f5a, type: 3}
+      possibleAnswers:
+      - Nor
+      - Nor Gate
+    - symbolName: Not
+      symbolImage: {fileID: 21300000, guid: 7339e51fa6ab4384b821990d905a33c3, type: 3}
+      possibleAnswers:
+      - Not
+      - Not Gate
+    - symbolName: Xor
+      symbolImage: {fileID: 21300000, guid: 48da104b549a6e94fa2fff5527a8399f, type: 3}
+      possibleAnswers:
+      - Xor
+      - Xor Gate
+    - symbolName: Xnor
+      symbolImage: {fileID: 21300000, guid: 72438654d8bc38440a3afa9f8c018d0e, type: 3}
+      possibleAnswers:
+      - Xnor
+      - Xnor Gate
+    - symbolName: Buffer
+      symbolImage: {fileID: 21300000, guid: ac397e9a54161e144ad03ad1d112d02f, type: 3}
+      possibleAnswers:
+      - Buffer
+      - Buffer Gate
+      - Basic Amplifier
+      - Amplifier
+      - Basic Amp
+      - Amp
+    - symbolName: Flipflop
+      symbolImage: {fileID: 21300000, guid: 390a85f99a6f15640886a629fbefb6a1, type: 3}
+      possibleAnswers:
+      - Flipflop
+      - Flip Flop
+      - Flipflop Gate
+      - Flip Flop Gate
+      - Flip-flop
+      - Flip-flop Gate
+      - D Flipflop
+      - D Flip-flop
+      - D Flip Flop
+      - D Flipflop gate
+      - D Flip-flop gate
+      - D Flip Flop gate
+    - symbolName: Operational Amplifier
+      symbolImage: {fileID: 21300000, guid: 97d5ceb0e24662448b50b87c89b5ae05, type: 3}
+      possibleAnswers:
+      - Operational Amplifier
+      - Op Amp
+      - Operational Amp
+      - OpAmp
+    - symbolName: Antenna
+      symbolImage: {fileID: 21300000, guid: 517876f009375ec43b52ab8b6362c652, type: 3}
+      possibleAnswers:
+      - Antenna
+      - Aerial
+    - symbolName: Antenna Loop
+      symbolImage: {fileID: 21300000, guid: 5d9d9afd8b108f74d82410c396a5ef45, type: 3}
+      possibleAnswers:
+      - Antenna Loop
+      - Loop Antenna
+    - symbolName: Antenna Dipole
+      symbolImage: {fileID: 21300000, guid: 93222e548fcffeb4b9654b992de58d7c, type: 3}
+      possibleAnswers:
+      - Antenna Dipole
+      - Dipole Antenna
+    - symbolName: Transformer
+      symbolImage: {fileID: 21300000, guid: 5f7ba305d459214459cf1d076dfea681, type: 3}
+      possibleAnswers:
+      - Transformer
+    - symbolName: Buzzer
+      symbolImage: {fileID: 21300000, guid: ba4f65937846d714e96d9f53c594cb9e, type: 3}
+      possibleAnswers:
+      - Buzzer
+    - symbolName: Loud Speaker
+      symbolImage: {fileID: 21300000, guid: 5cd0fafa91a011345b4e262405283ec8, type: 3}
+      possibleAnswers:
+      - Speaker
+      - Loud Speaker
+      - Loud Speak
+    - symbolName: Light Bulb
+      symbolImage: {fileID: 21300000, guid: d00ffc4257a2f5144a53033acb99f94d, type: 3}
+      possibleAnswers:
+      - Light Bulb
+      - Bulb
+    - symbolName: Motor
+      symbolImage: {fileID: 21300000, guid: 6848bbde14c243740be3cde455c21847, type: 3}
+      possibleAnswers:
+      - Motor
+    - symbolName: Fuse
+      symbolImage: {fileID: 21300000, guid: 99262d66bf1cbee4588de472ccc55482, type: 3}
+      possibleAnswers:
+      - Fuse
+    - symbolName: ADC
+      symbolImage: {fileID: 21300000, guid: 61cb65d1459e6aa4cac173ec340ae445, type: 3}
+      possibleAnswers:
+      - ADC
+    - symbolName: DAC
+      symbolImage: {fileID: 21300000, guid: a2b7220d1965fb24bbac8a899c8559a8, type: 3}
+      possibleAnswers:
+      - DAC
+    - symbolName: Thermocouple
+      symbolImage: {fileID: 21300000, guid: 1b40d6f52308a454986777437944b37a, type: 3}
+      possibleAnswers:
+      - Thermocouple
+      - Thermo Couple
+    - symbolName: Cloud
+      symbolImage: {fileID: 21300000, guid: e4d8621d0def46e4b90e15386bb08f19, type: 3}
+      possibleAnswers:
+      - Cloud
+    - symbolName: Desktop Computer
+      symbolImage: {fileID: 21300000, guid: 3e7f761f2c453d7419397f37018cd715, type: 3}
+      possibleAnswers:
+      - Desktop
+      - Computer
+      - Desktop Computer
+      - Computer Desktop
+      - PC
+      - Personal Computer
+    - symbolName: Firewall
+      symbolImage: {fileID: 21300000, guid: 273253d7daa78514da4a410f7621879a, type: 3}
+      possibleAnswers:
+      - Firewall
+      - Fire Wall
+    - symbolName: IP Phone
+      symbolImage: {fileID: 21300000, guid: f2a516dae397b2d459160eee0a7d65a3, type: 3}
+      possibleAnswers:
+      - IP Phone
+      - Phone
+      - Telephone
+      - VoIP Phone
+    - symbolName: LAN Switch
+      symbolImage: {fileID: 21300000, guid: f224abf896c9a8b47b4a17daf49cfc46, type: 3}
+      possibleAnswers:
+      - LAN Switch
+      - Switch LAN
+      - Switch
+      - LAN
+    - symbolName: Laptop
+      symbolImage: {fileID: 21300000, guid: d7ab29b14da272f4a8f8def6884ac88c, type: 3}
+      possibleAnswers:
+      - Laptop
+    - symbolName: Router
+      symbolImage: {fileID: 21300000, guid: 00529474734dea14fa97a16eceab576f, type: 3}
+      possibleAnswers:
+      - Router
+    - symbolName: Server
+      symbolImage: {fileID: 21300000, guid: 7a7b2c08549a2ec438fd3735da414943, type: 3}
+      possibleAnswers:
+      - Server
+    - symbolName: WAN
+      symbolImage: {fileID: 21300000, guid: f37b04c4a9b0c8944938ad4591835215, type: 3}
+      possibleAnswers:
+      - WAN
+      - Wide Area Network
+    - symbolName: Wireless Media
+      symbolImage: {fileID: 21300000, guid: 32275c8d54a72c04c89447c388d2932d, type: 3}
+      possibleAnswers:
+      - Wireless Media
+      - Media
+      - Media Wireless
+      - Wireless
+    - symbolName: Wireless Router
+      symbolImage: {fileID: 21300000, guid: 4cc6e383d2c3b2445b572dc9df1f5869, type: 3}
+      possibleAnswers:
+      - Wireless Router
+      - Router
+      - Wireless
+      - Router Wireless
+    - symbolName: DPDT
+      symbolImage: {fileID: 21300000, guid: aa4822045b4bb074abb9efcd8c13541d, type: 3}
+      possibleAnswers:
+      - DPDT
+      - DPDT Switch
+      - Switch DPDT
+    - symbolName: Sinusoidal Generator
+      symbolImage: {fileID: 21300000, guid: 404889c4773caef4f9d45c347802bb5e, type: 3}
+      possibleAnswers:
+      - Sine Generator
+      - Sine
+      - Sinusoidal Generator
+      - Sinusoidal
+      - Sine Gen
+      - Sinusoidal Gen
+      - Generator
+    - symbolName: Pulse Generator
+      symbolImage: {fileID: 21300000, guid: fc4121ac1a16d4f40a14233113a322b6, type: 3}
+      possibleAnswers:
+      - Pulse
+      - Pulse Generator
+      - Generator
+    - symbolName: Triangular Wave
+      symbolImage: {fileID: 21300000, guid: 2f3424b9ba292664b90bd52cc4ae56d0, type: 3}
+      possibleAnswers:
+      - Triangular Wave
+      - Triangular Wave Generator
+      - Generator
+      - Triangle Wave
+      - Triangle Wave Generator
+    - symbolName: PN Junction Diode
+      symbolImage: {fileID: 21300000, guid: 99f85f34dc248ce49a2cbe557109dd77, type: 3}
+      possibleAnswers:
+      - PN Junction
+      - PN Junction Diode
+      - PN Diode
+      - PN
+      - Junction Diode
+      - Junction
+      - Diode
+    - symbolName: Tristate Buffer
+      symbolImage: {fileID: 21300000, guid: 5221e7abb9ad3f64982c1a1c51084928, type: 3}
+      possibleAnswers:
+      - Tristate Buffer
+      - Tristate
+      - Buffer
+    - symbolName: Crystal Oscillator
+      symbolImage: {fileID: 21300000, guid: 0f6bf29cd24f43244a470838e152eb5f, type: 3}
+      possibleAnswers:
+      - Crystal Oscillator
+      - Crystal
+      - Oscillator
+  ResistData:
+  - name: Resistive Lake
+    timeLimitInSeconds: 180
+    minimumWinningScore: 60
+    pointsAddedForCorrectAnswer: 10
+    minimumTrueOrFalseScoreToUnlock: 0
+    questions:
+    - resistorValue: 1K-5
+      resistorImage: {fileID: 21300000, guid: 798f070872eca064683eff1242a7b5df, type: 3}
+      possibleValuesInDigits:
+      - 1.0
+      - 001
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1K-10
+      resistorImage: {fileID: 21300000, guid: f8bed798d255dd6428e1a708977f2483, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: kilohms
+      toleranceValue: 10%
+    - resistorValue: 1M-5
+      resistorImage: {fileID: 21300000, guid: cd94bd97d66ba414982bc1037eec7869, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 1M-10
+      resistorImage: {fileID: 21300000, guid: a65e6f5b584bbad4c91ee092d7a13f0e, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: megohms
+      toleranceValue: 10%
+    - resistorValue: 1.1K-5
+      resistorImage: {fileID: 21300000, guid: 5a43e951ee77dbb4eb1856ca0db689f8, type: 3}
+      possibleValuesInDigits:
+      - 1.1
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1.1M-5
+      resistorImage: {fileID: 21300000, guid: 7fdd03b3eb67d1845a30ccbd7616546d, type: 3}
+      possibleValuesInDigits:
+      - 1.1
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 1.2K-5
+      resistorImage: {fileID: 21300000, guid: da8a09d541e7850439fe76cccdd48007, type: 3}
+      possibleValuesInDigits:
+      - 1.2
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1.2K-10
+      resistorImage: {fileID: 21300000, guid: 689adac7014cf0a4cb143a13ff225a19, type: 3}
+      possibleValuesInDigits:
+      - 1.2
+      resistorUnit: kilohms
+      toleranceValue: 10%
+    - resistorValue: 1.2M-5
+      resistorImage: {fileID: 21300000, guid: 31cdfae519ff49242b87aca69f62ce9e, type: 3}
+      possibleValuesInDigits:
+      - 1.2
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 1.2M-10
+      resistorImage: {fileID: 21300000, guid: 4a4f7b5ac7d10b547b112d9fd5fcc062, type: 3}
+      possibleValuesInDigits:
+      - 1.2
+      resistorUnit: megohms
+      toleranceValue: 10%
+    - resistorValue: 1.3K-5
+      resistorImage: {fileID: 21300000, guid: 7e7d5f4ef5e4c01488f4ed2dcdee88f6, type: 3}
+      possibleValuesInDigits:
+      - 1.3
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1.3M-5
+      resistorImage: {fileID: 21300000, guid: 49327eb7fa5b23740bc82627a82d1eca, type: 3}
+      possibleValuesInDigits:
+      - 1.3
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 1.5K-5
+      resistorImage: {fileID: 21300000, guid: 8c2bd25adb1987e46b38c074c17fe49f, type: 3}
+      possibleValuesInDigits:
+      - 1.5
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1.5K-10
+      resistorImage: {fileID: 21300000, guid: 309e1b605804c7541a629e3185afc63d, type: 3}
+      possibleValuesInDigits:
+      - 1.5
+      resistorUnit: kilohms
+      toleranceValue: 10%
+    - resistorValue: 1.5M-5
+      resistorImage: {fileID: 21300000, guid: acc4da3417ea5cb44827d52e1b07376c, type: 3}
+      possibleValuesInDigits:
+      - 1.5
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 1.5M-10
+      resistorImage: {fileID: 21300000, guid: cea9fd9cb83104f49b0660e02d3fa6e7, type: 3}
+      possibleValuesInDigits:
+      - 1.5
+      resistorUnit: megohms
+      toleranceValue: 10%
+    - resistorValue: 1.6K-5
+      resistorImage: {fileID: 21300000, guid: 9eaf79c0c421e5249b8d2ec729753467, type: 3}
+      possibleValuesInDigits:
+      - 1.6
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 2K-5
+      resistorImage: {fileID: 21300000, guid: 1b2e56357d9a6c94d920e2267c7f9d25, type: 3}
+      possibleValuesInDigits:
+      - 002
+      - 2.0
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 2M-5
+      resistorImage: {fileID: 21300000, guid: f012f83d8257db949adae0fe7cc072ca, type: 3}
+      possibleValuesInDigits:
+      - 002
+      - 2.0
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 2.2K-5
+      resistorImage: {fileID: 21300000, guid: e15e0f18ce7363c4fae43399239d8bb7, type: 3}
+      possibleValuesInDigits:
+      - 2.2
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 2.2K-10
+      resistorImage: {fileID: 21300000, guid: be2d2bafe36f1ae46bd954b085633d25, type: 3}
+      possibleValuesInDigits:
+      - 2.2
+      resistorUnit: kilohms
+      toleranceValue: 10%
+    - resistorValue: 2.2M-5
+      resistorImage: {fileID: 21300000, guid: 0c063ae470fb75845a2e8e4cbaa4cc2a, type: 3}
+      possibleValuesInDigits:
+      - 2.2
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 2.2M-10
+      resistorImage: {fileID: 21300000, guid: 221c07ed279b31940b38422632667a38, type: 3}
+      possibleValuesInDigits:
+      - 2.2
+      resistorUnit: megohms
+      toleranceValue: 10%
+    - resistorValue: 2.4K-5
+      resistorImage: {fileID: 21300000, guid: 06d8d0bfd25ce3345aff0d208798736c, type: 3}
+      possibleValuesInDigits:
+      - 2.4
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 2.4M-5
+      resistorImage: {fileID: 21300000, guid: 7c3c76554346a8e4e9ad7c81c27f39ce, type: 3}
+      possibleValuesInDigits:
+      - 2.4
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 2.7K-5
+      resistorImage: {fileID: 21300000, guid: 1538c15ce39cabc4a90de3d58ed4a158, type: 3}
+      possibleValuesInDigits:
+      - 2.7
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 2.7K-10
+      resistorImage: {fileID: 21300000, guid: 6f259d72c64d8ec4d9e079cd84bb52a3, type: 3}
+      possibleValuesInDigits:
+      - 2.7
+      resistorUnit: kilohms
+      toleranceValue: 10%
+    - resistorValue: 2.7M-5
+      resistorImage: {fileID: 21300000, guid: bafa7971cb38d7a42a0193ff77d5a207, type: 3}
+      possibleValuesInDigits:
+      - 2.7
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 2.7M-10
+      resistorImage: {fileID: 21300000, guid: 140188abc543a5a468848f7efdd62743, type: 3}
+      possibleValuesInDigits:
+      - 2.7
+      resistorUnit: megohms
+      toleranceValue: 10%
+    - resistorValue: 3K-5
+      resistorImage: {fileID: 21300000, guid: 46fb24c6594830244b5ec8813bfa403d, type: 3}
+      possibleValuesInDigits:
+      - 3.00
+      - 003
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 3M-5
+      resistorImage: {fileID: 21300000, guid: 26fb7e7313f84b2499824df5c139f988, type: 3}
+      possibleValuesInDigits:
+      - 003
+      - 3.00
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 3.3K-5
+      resistorImage: {fileID: 21300000, guid: bb55750c32fb3344d9ed76568420d383, type: 3}
+      possibleValuesInDigits:
+      - 3.3
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 3.3M-5
+      resistorImage: {fileID: 21300000, guid: 9a1b837d742799d44af2ead96dab8f3e, type: 3}
+      possibleValuesInDigits:
+      - 3.3
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 3.6K-5
+      resistorImage: {fileID: 21300000, guid: 0edf7334a0c4e6049b4a6c912b7e981f, type: 3}
+      possibleValuesInDigits:
+      - 3.6
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 3.6M-5
+      resistorImage: {fileID: 21300000, guid: fb9f20d941470c649bd817836bb1a51b, type: 3}
+      possibleValuesInDigits:
+      - 3.6
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 4.3K-5
+      resistorImage: {fileID: 21300000, guid: 6523b24c1a962024593bb23e2a420cc9, type: 3}
+      possibleValuesInDigits:
+      - 4.3
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 4.3M-5
+      resistorImage: {fileID: 21300000, guid: 0b553fb57e67ae641bfb9650cb68f59a, type: 3}
+      possibleValuesInDigits:
+      - 4.3
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 4.7K-5
+      resistorImage: {fileID: 21300000, guid: 036861ccaa82375459155fd78f48a147, type: 3}
+      possibleValuesInDigits:
+      - 4.7
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 4.7M-5
+      resistorImage: {fileID: 21300000, guid: dcce105be77d1254fa13c61a91abfd9f, type: 3}
+      possibleValuesInDigits:
+      - 4.7
+      resistorUnit: megohms
+      toleranceValue: 5%
+    - resistorValue: 5.1K-5
+      resistorImage: {fileID: 21300000, guid: acb5e5e900365ff4d8d299c9bfadc2a4, type: 3}
+      possibleValuesInDigits:
+      - 5.1
+      resistorUnit: kilohms
+      toleranceValue: 5%
+    - resistorValue: 1K-1
+      resistorImage: {fileID: 21300000, guid: 77269e334be3f2d41855db69f050fc68, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 1K-2
+      resistorImage: {fileID: 21300000, guid: e22701af9a0b8f147b8c1e3f18c0d94d, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: kilohms
+      toleranceValue: 2%
+    - resistorValue: 1M-1
+      resistorImage: {fileID: 21300000, guid: c009a7f624c198b4cb7cce4e2c6a636f, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 1M-2
+      resistorImage: {fileID: 21300000, guid: 7283aa2b5c4ccd54fbf7503ca1284d81, type: 3}
+      possibleValuesInDigits:
+      - 001
+      - 1.0
+      resistorUnit: megohms
+      toleranceValue: 2%
+    - resistorValue: 1.3K-1
+      resistorImage: {fileID: 21300000, guid: 8647c881142a60246826fde8adc4558e, type: 3}
+      possibleValuesInDigits:
+      - 1.3
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 2K-1
+      resistorImage: {fileID: 21300000, guid: b80b4e2f4a040614a9b8956c3c02b695, type: 3}
+      possibleValuesInDigits:
+      - 002
+      - 2.0
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 7.5M-2
+      resistorImage: {fileID: 21300000, guid: ee1a8665cbf383d418a6826f052076ec, type: 3}
+      possibleValuesInDigits:
+      - 7.5
+      resistorUnit: megohms
+      toleranceValue: 2%
+    - resistorValue: 10K-1
+      resistorImage: {fileID: 21300000, guid: cc048869de81cc0489001666e0bb9b29, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 10K-2
+      resistorImage: {fileID: 21300000, guid: d7e26e2ae2a094f44be21175c044ca15, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: kilohms
+      toleranceValue: 2%
+    - resistorValue: 10M-1
+      resistorImage: {fileID: 21300000, guid: 8031b32fb82072e4d8017703c43d3fd6, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 10M-2
+      resistorImage: {fileID: 21300000, guid: ef4c19539adcaaf4eb4e0d04abc4d59b, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: megohms
+      toleranceValue: 2%
+    - resistorValue: 10-1
+      resistorImage: {fileID: 21300000, guid: 4b1766e6c96a17b4399142293746d1fd, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 10-2
+      resistorImage: {fileID: 21300000, guid: 33f9b7e64afb071408679b0fcafd287b, type: 3}
+      possibleValuesInDigits:
+      - 010
+      resistorUnit: ohms
+      toleranceValue: 2%
+    - resistorValue: 13-1
+      resistorImage: {fileID: 21300000, guid: e68384d9843f320498dae1c1d9703509, type: 3}
+      possibleValuesInDigits:
+      - 013
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 20-1
+      resistorImage: {fileID: 21300000, guid: a625d8b6f8705e3419caa238856b83bb, type: 3}
+      possibleValuesInDigits:
+      - 020
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 34-1
+      resistorImage: {fileID: 21300000, guid: 6fd5bda82452e354ab306c9c26afc67c, type: 3}
+      possibleValuesInDigits:
+      - 034
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 75K-2
+      resistorImage: {fileID: 21300000, guid: 565ec62ad4ae6db45961e2aac46f6e19, type: 3}
+      possibleValuesInDigits:
+      - 075
+      resistorUnit: kilohms
+      toleranceValue: 2%
+    - resistorValue: 75M-1
+      resistorImage: {fileID: 21300000, guid: b32760ae4827e654ba5c48eff3c5ab49, type: 3}
+      possibleValuesInDigits:
+      - 075
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 75-1
+      resistorImage: {fileID: 21300000, guid: b15b970769e587246bbedb6208b6b80a, type: 3}
+      possibleValuesInDigits:
+      - 075
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 100K-1
+      resistorImage: {fileID: 21300000, guid: 98d5cec77864bcd4782011d3ebe27a75, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 100K-2
+      resistorImage: {fileID: 21300000, guid: 1032b1855c43d0a4db19336f9e3bd8e6, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: kilohms
+      toleranceValue: 2%
+    - resistorValue: 100M-1
+      resistorImage: {fileID: 21300000, guid: a0ec367c567ae89458068475db4ebba1, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 100M-2
+      resistorImage: {fileID: 21300000, guid: e2aa90582c033014684743fa52851f6a, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: megohms
+      toleranceValue: 2%
+    - resistorValue: 100-1
+      resistorImage: {fileID: 21300000, guid: 46da3500fcd17c849a41937c695d07e6, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: ohms
+      toleranceValue: 1%
+    - resistorValue: 100-2
+      resistorImage: {fileID: 21300000, guid: e7623df6d28cd99418e987673d51976a, type: 3}
+      possibleValuesInDigits:
+      - 100
+      resistorUnit: ohms
+      toleranceValue: 2%
+    - resistorValue: 130K-1
+      resistorImage: {fileID: 21300000, guid: 3af77e1b5cbd8914c9828e93159393fc, type: 3}
+      possibleValuesInDigits:
+      - 130
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 130M-1
+      resistorImage: {fileID: 21300000, guid: 13f21908c2bb23348ba46fdbdc748be8, type: 3}
+      possibleValuesInDigits:
+      - 130
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 200K-1
+      resistorImage: {fileID: 21300000, guid: 27c188eb39975ab4cbe717628ae840bc, type: 3}
+      possibleValuesInDigits:
+      - 200
+      resistorUnit: kilohms
+      toleranceValue: 1%
+    - resistorValue: 200M-1
+      resistorImage: {fileID: 21300000, guid: 5d1a6ddfe56dc78418c1d2f643e96155, type: 3}
+      possibleValuesInDigits:
+      - 200
+      resistorUnit: megohms
+      toleranceValue: 1%
+    - resistorValue: 200-1
+      resistorImage: {fileID: 21300000, guid: 3622974b98fb20149b57c96ba8ab20b7, type: 3}
+      possibleValuesInDigits:
+      - 200
+      resistorUnit: ohms
+      toleranceValue: 1%
+  PawerData:
+  - name: Tore ng Dagitab
+    timeLimitInSeconds: 180
+    minimumWinningScore: 100
+    pointsAddedForCorrectAnswer: 10
+    questions:
+    - question: Sunurang kabit
+      choices:
+      - choice: Serial connection
+        isCorrect: 1
+      - choice: Processor bus
+        isCorrect: 0
+      - choice: Sequential circuit
+        isCorrect: 0
+      trivia: The current flowing on any components in a series circuit is identical.
+    - question: Duhandas
+      choices:
+      - choice: Diode
+        isCorrect: 1
+      - choice: Switch
+        isCorrect: 0
+      - choice: Transformer
+        isCorrect: 0
+      trivia: Diodes can be used in various applications such as voltage regulators,
+        switches, modulators, and demodulators.
+    - question: Pilak
+      choices:
+      - choice: Gold
+        isCorrect: 0
+      - choice: Silver
+        isCorrect: 1
+      - choice: Brass
+        isCorrect: 0
+      trivia: Silver is the most electrically conductive metal.
+    - question: Balindas
+      choices:
+      - choice: Cathode
+        isCorrect: 1
+      - choice: Anode
+        isCorrect: 0
+      - choice: Electrolyte
+        isCorrect: 0
+      trivia: The negative terminal of a battery is called cathode.
+    - question: Tahandas
+      choices:
+      - choice: Cathode
+        isCorrect: 0
+      - choice: Anode
+        isCorrect: 1
+      - choice: Electrolyte
+        isCorrect: 0
+      trivia: The positive terminal of a battery is called anode.
+    - question: Fire
+      choices:
+      - choice: Sabog
+        isCorrect: 0
+      - choice: Liyab
+        isCorrect: 0
+      - choice: Sunog
+        isCorrect: 1
+      trivia: If left unattended, faulty electrical outlets and devices can cause
+        fire.
+    - question: Oscilloscope
+      choices:
+      - choice: Talundasan
+        isCorrect: 0
+      - choice: Timbulog
+        isCorrect: 0
+      - choice: Tugoysipat
+        isCorrect: 1
+      trivia: Found yourself troubleshooting a circuit? O-scopes can uncover waveforms         for
+        you.
+    - question: Buntabay
+      choices:
+      - choice: Radio waves
+        isCorrect: 0
+      - choice: Antenna
+        isCorrect: 0
+      - choice: Satellite
+        isCorrect: 1
+      trivia: Modern electronic communications are made possible by communication
+        devices called satellites.
+    - question: Transistor
+      choices:
+      - choice: Dagindas
+        isCorrect: 0
+      - choice: Saligwil
+        isCorrect: 1
+      - choice: Agapayan
+        isCorrect: 0
+      trivia: Without transistors, there will be no computers. Modern microprocessors
+        contain millions of transistors.
+    - question: Amsukod
+      choices:
+      - choice: Rectifier
+        isCorrect: 0
+      - choice: Ammeter
+        isCorrect: 1
+      - choice: Switch
+        isCorrect: 0
+      trivia: Make sure to connect the ammeter in series when measuring current across
+        a circuit.
+    - question: Agapayang kabit
+      choices:
+      - choice: Toggle switching
+        isCorrect: 0
+      - choice: Parallel connection
+        isCorrect: 1
+      - choice: Closed circuit
+        isCorrect: 0
+      trivia: The voltage across parallel elements in a circuit are identical.
+    - question: Agsikap
+      choices:
+      - choice: Force
+        isCorrect: 0
+      - choice: Engineer
+        isCorrect: 1
+      - choice: Voltage
+        isCorrect: 0
+      trivia: Want to master electronic components and devices? Apply for electrical,
+        electronics, or computer engineering programs now!
+    - question: Technology
+      choices:
+      - choice: Aghimuan
+        isCorrect: 1
+      - choice: Aghamtao
+        isCorrect: 0
+      - choice: Aghango
+        isCorrect: 0
+      trivia: Electronics technology is a growing industry. Without engineering and
+        technology, science could have been just a philosophy.
+    - question: Resonance
+      choices:
+      - choice: Alunig
+        isCorrect: 1
+      - choice: Awanggan
+        isCorrect: 0
+      - choice: Habyog
+        isCorrect: 0
+      trivia: Resonance occurs when inductor reactance balances capacitor reactance
+        at a given signal frequency.
+    - question: Vacuum tube
+      choices:
+      - choice: Tubong salikop
+        isCorrect: 0
+      - choice: Batalang tubo
+        isCorrect: 0
+      - choice: Awanging tubo
+        isCorrect: 1
+      trivia: First generation computers were made up of vacuum tubes which consumed
+        a large amount of power.
+    - question: Magnetism
+      choices:
+      - choice: Balnisaan
+        isCorrect: 0
+      - choice: Balnihay
+        isCorrect: 0
+      - choice: Balnian
+        isCorrect: 1
+      trivia: The study of magnetism is interlinked with electricity as electromagnets
+        are used in electronic devices.
+    - question: Batubalani
+      choices:
+      - choice: Magnet
+        isCorrect: 1
+      - choice: Nucleus
+        isCorrect: 0
+      - choice: Chassis
+        isCorrect: 0
+      trivia: The properties of magnets are used to create electricity in electrical
+        devices.
+    - question: Electro- magnetic wave
+      choices:
+      - choice: Disaluyang layad
+        isCorrect: 0
+      - choice: Buhagsigwasan
+        isCorrect: 0
+      - choice: Dagibalniing liboy
+        isCorrect: 1
+      trivia: Electromagnetic waves make up the E.M. spectrum which allows electronic
+        communications.
+    - question: Amplitude
+      choices:
+      - choice: Hagkis
+        isCorrect: 1
+      - choice: Hiramdam
+        isCorrect: 0
+      - choice: Tahapik
+        isCorrect: 0
+      trivia: Amplitude modulation is a variation of signal magnitude, allowing music
+        and news to be delivered through radio.
+    - question: Dagindas
+      choices:
+      - choice: Electron
+        isCorrect: 0
+      - choice: Electrolyte
+        isCorrect: 0
+      - choice: Electrode
+        isCorrect: 1
+      trivia: Electronic components such as transistors and triodes have terminals
+        that allow current flow called electrodes.
+    - question: Dagisik
+      choices:
+      - choice: Proton
+        isCorrect: 0
+      - choice: Electron
+        isCorrect: 1
+      - choice: Neutron
+        isCorrect: 0
+      trivia: Negatively charged particles called electrons flow when current passes
+        through any electronic device.
+    - question: Electronics
+      choices:
+      - choice: Daghasaan
+        isCorrect: 0
+      - choice: Dagisikan
+        isCorrect: 1
+      - choice: Daghayan
+        isCorrect: 0
+      trivia: Electronics deals with circuits made up of components that control the
+        flow of electricity.
+    - question: Dagitab
+      choices:
+      - choice: Electrostatic
+        isCorrect: 0
+      - choice: Voltage
+        isCorrect: 0
+      - choice: Current
+        isCorrect: 1
+      trivia: If you are able to read this trivia on a smartphone, then thank the
+        electric current that powers up this device.
+    - question: Daksipat
+      choices:
+      - choice: Telescope
+        isCorrect: 1
+      - choice: Oscilloscope
+        isCorrect: 0
+      - choice: Multimeter
+        isCorrect: 0
+      trivia: Modern telescopes or optical magnifiers are computer- controlled and
+        provide digital output; thus, they are considered electronic devices.
+    - question: Altabos
+      choices:
+      - choice: Bass
+        isCorrect: 0
+      - choice: Headphone
+        isCorrect: 0
+      - choice: Loudspeaker
+        isCorrect: 1
+      trivia: '"Alta" means high; "bos" is a syllable for "boses", which means voice.'
+    - question: Frequency
+      choices:
+      - choice: Himig
+        isCorrect: 0
+      - choice: Dalas
+        isCorrect: 1
+      - choice: Damliboy
+        isCorrect: 0
+      trivia: AC supplies generate power which are represented as sine waves with
+        standard frequency of either 50 or 60 Hertz.
+    - question: Dawit
+      choices:
+      - choice: Capacitance
+        isCorrect: 0
+      - choice: Inductance
+        isCorrect: 1
+      - choice: Resistance
+        isCorrect: 0
+      trivia: An inductor with an inductance of 1 Henry produces 1 volt when current
+        changes at 1 amps per second.
+    - question: Dielectric
+      choices:
+      - choice: Disaluyan
+        isCorrect: 1
+      - choice: Dantay
+        isCorrect: 0
+      - choice: Duhakay
+        isCorrect: 0
+      trivia: Dielectrics in capacitors come in various insulating materials such
+        as ceramic, film, paper, and air.
+    - question: Physics
+      choices:
+      - choice: Dalub-isipan
+        isCorrect: 0
+      - choice: Isigan
+        isCorrect: 0
+      - choice: Liknayan
+        isCorrect: 1
+      trivia: Electronics is a branch of physics that deals with emission, behavior,
+        and effects of electrons and with electronic devices.
+    - question: Capacitance
+      choices:
+      - choice: Lakyan
+        isCorrect: 0
+      - choice: Lulos
+        isCorrect: 0
+      - choice: Lulan
+        isCorrect: 1
+      trivia: Capacitance is the ratio of electric charge and voltage difference across
+        the capacitor.
+    - question: Malasaluyan
+      choices:
+      - choice: Semiconductor
+        isCorrect: 1
+      - choice: Circuit
+        isCorrect: 0
+      - choice: Waveform
+        isCorrect: 0
+      trivia: 'Diodes, transistors, and integrated circuits have something in common:
+        they are all made up of semiconductor materials such as silicon and germanium.'
+    - question: Atom
+      choices:
+      - choice: Mulapik
+        isCorrect: 1
+      - choice: Nikatiting
+        isCorrect: 0
+      - choice: Sakwil
+        isCorrect: 0
+      trivia: Deal with atomic physics to kick-start your fruitful journey to acquire
+        expertise on electronic devices and circuits.
+    - question: Microphone
+      choices:
+      - choice: Mikboses
+        isCorrect: 0
+      - choice: Miksalita
+        isCorrect: 0
+      - choice: Miktinig
+        isCorrect: 1
+      trivia: Without this electronic device, there would be no public events with
+        productive speaking engagements or concerts with fine singers singing.
+    - question: Resistor
+      choices:
+      - choice: Panaklong
+        isCorrect: 0
+      - choice: Panakwil
+        isCorrect: 1
+      - choice: Panghadlang
+        isCorrect: 0
+      trivia: To prevent electrical disasters, electrical devices inevitably contain
+        resistors that reduce current flow and adjust signal levels.
+    - question: Panawit- kidkid
+      choices:
+      - choice: Resistivity
+        isCorrect: 0
+      - choice: Induction coil
+        isCorrect: 1
+      - choice: Servo motor
+        isCorrect: 0
+      trivia: Induction coil is a transformer that produces a high voltage alternating
+        current pulse from a low voltage direct current supply.
+    - question: Panawit
+      choices:
+      - choice: Inductor
+        isCorrect: 1
+      - choice: Resistor
+        isCorrect: 0
+      - choice: Transformer
+        isCorrect: 0
+      trivia: When combined with capacitors, inductors allow you to tune in on your
+        favorite radio station!
+    - question: Algebra
+      choices:
+      - choice: Paladutaan
+        isCorrect: 0
+      - choice: Pamilang
+        isCorrect: 0
+      - choice: Panandaan
+        isCorrect: 1
+      trivia: A prerequisite in mastering electrical devices is a talent in manipulating
+        variables and solving equations using algebra.
+    - question: Insulator
+      choices:
+      - choice: Panghadlang
+        isCorrect: 1
+      - choice: Pandagbawas
+        isCorrect: 0
+      - choice: Panduhagi
+        isCorrect: 0
+      trivia: When working with electrical devices, always protect yourself. Wear
+        insulators as much as possible to prevent accidents.
+    - question: Panghibayo
+      choices:
+      - choice: Charger
+        isCorrect: 0
+      - choice: Modulator
+        isCorrect: 0
+      - choice: Amplifier
+        isCorrect: 1
+      trivia: Low audio output? Increase signal power with electronic amplifier!
+    - question: Charger
+      choices:
+      - choice: Sikigan
+        isCorrect: 0
+      - choice: Pangtuos
+        isCorrect: 0
+      - choice: Pantablay
+        isCorrect: 1
+      trivia: If your mobile phone battery power is low, charge it now! Chargers come
+        in different sizes and shapes depending on use of an electronic device.
+    - question: Website
+      choices:
+      - choice: Hayagang sipi
+        isCorrect: 0
+      - choice: Talaguhitan
+        isCorrect: 0
+      - choice: Pook-sapot
+        isCorrect: 1
+      trivia: Electronic communications has undergone revolution. Websites provide
+        a way to access resources in multiple functions via Internet.
+    - question: Panuos
+      choices:
+      - choice: Computer
+        isCorrect: 1
+      - choice: Ground
+        isCorrect: 0
+      - choice: Switch
+        isCorrect: 0
+      trivia: You are currently playing this game on a computer, one of the greatest
+        inventions of all time!
+    - question: Sulatroniko
+      choices:
+      - choice: Messenger
+        isCorrect: 0
+      - choice: E-mail
+        isCorrect: 1
+      - choice: Packet
+        isCorrect: 0
+      trivia: Messaging via computer and message delivery in just a matter of seconds
+        is possible through electronic mailing systems!
+    - question: Laguming tayahan
+      choices:
+      - choice: Integral calculus
+        isCorrect: 1
+      - choice: Slope
+        isCorrect: 0
+      - choice: Area
+        isCorrect: 0
+      trivia: To compute for the voltage across the capacitor, one must apply integral
+        calculus through a process called integration.
+    - question: Headset
+      choices:
+      - choice: Himig taingulo
+        isCorrect: 0
+      - choice: Labsawitan
+        isCorrect: 0
+      - choice: Pang-ulong hatinig
+        isCorrect: 1
+      trivia: Are you an audiophile to the extent that you wanna listen to music while
+        walking? Buy a headset now!
+    - question: Panginain
+      choices:
+      - choice: Virus
+        isCorrect: 0
+      - choice: Browser
+        isCorrect: 1
+      - choice: Protocol
+        isCorrect: 0
+      trivia: Start your computer and launch the web browser to surf the Internet!
+        Today's most popular browsers are Chrome, Safari, and Edge.
+    - question: Kawingan
+      choices:
+      - choice: Hyperlink
+        isCorrect: 1
+      - choice: Source code
+        isCorrect: 0
+      - choice: Plugins
+        isCorrect: 0
+      trivia: Hyperlinks are highlighted objects in a web page that can be clicked
+        with a mouse to go to another site or document using a web browser.
+    - question: Website
+      choices:
+      - choice: Pook-sapot
+        isCorrect: 1
+      - choice: Daan ng kaalaman
+        isCorrect: 0
+      - choice: Hatirang bukasan
+        isCorrect: 0
+      trivia: According to a January 2019 survey by Netcraft, there are a whopping
+        1,518,207,412 websites that can be accessed via a single computer!
+    - question: Capacitor
+      choices:
+      - choice: Lakpasan
+        isCorrect: 0
+      - choice: Kargagitab
+        isCorrect: 0
+      - choice: Panlulan
+        isCorrect: 1
+      trivia: Dynamic Random Access Memory, or simply DRAM, uses capacitors to represent
+        information as binary digits. Mind blown? Tap Continue now!
+    - question: Sakwil
+      choices:
+      - choice: Impedance
+        isCorrect: 0
+      - choice: Resistance
+        isCorrect: 1
+      - choice: Conductance
+        isCorrect: 0
+      trivia: If your skin is dry, you are carrying about 100,000 kilohm resistance
+        like the       two-terminal device painted with brown, black, and yellow color
+        bands.
+    - question: Electron cloud
+      choices:
+      - choice: Dagisik-ulap
+        isCorrect: 1
+      - choice: Dagipat-ulap
+        isCorrect: 0
+      - choice: Dasikan-ulap
+        isCorrect: 0
+      trivia: The system of electrons surrounding the nucleus of an atom is called
+        electron cloud, one of the reasons why there are millions of electronic devices
+        in our lives!
+    - question: Kalarawnan ng dagisik
+      choices:
+      - choice: Electron configuration
+        isCorrect: 1
+      - choice: Quantum mechanics
+        isCorrect: 0
+      - choice: Molecular orbitals
+        isCorrect: 0
+      trivia: Electrons are arranged in energy levels around an atomic nucleus. These
+        particles make up the current that flows through the circuits of your phone!
+    - question: Saliding saloy
+      choices:
+      - choice: Pulse modulation
+        isCorrect: 0
+      - choice: Wave spectrum
+        isCorrect: 0
+      - choice: Alternating current
+        isCorrect: 1
+      trivia: The current that runs on electrical outlets in households and businesses
+        are reversing back and forth, hence it is called alternating current.
+    - question: Salikop
+      choices:
+      - choice: Fuse
+        isCorrect: 0
+      - choice: Cross connection
+        isCorrect: 0
+      - choice: Circuit
+        isCorrect: 1
+      trivia: Current passes through a closed conductive path. Individual electronic
+        components make up a circuit to create an electrical network.
+    - question: Salipawpaw
+      choices:
+      - choice: Airplane
+        isCorrect: 1
+      - choice: Automotive battery
+        isCorrect: 0
+      - choice: Switchboard
+        isCorrect: 0
+      trivia: Set your mobile phone to "Airplane Mode" when you're flying to avoid
+        possible interference with the plane's navigational and communication devices.
+    - question: Conductor
+      choices:
+      - choice: Saluyan
+        isCorrect: 1
+      - choice: Kumpas
+        isCorrect: 0
+      - choice: Paladutaan
+        isCorrect: 0
+      trivia: Copper and aluminum are the most common carriers of electrical current
+        in circuits.
+    - question: Calculus
+      choices:
+      - choice: Urian
+        isCorrect: 0
+      - choice: Tayahan
+        isCorrect: 1
+      - choice: Sigwasan
+        isCorrect: 0
+      trivia: Calculating voltage or current through capacitor and inductor requires
+        calculus which deals with the study of change.
+    - question: Static electricity
+      choices:
+      - choice: Dagitab-punyal
+        isCorrect: 0
+      - choice: Dagitab-tulig
+        isCorrect: 0
+      - choice: Dagitab-tigil
+        isCorrect: 1
+      trivia: Lower the risks of static shock on your device. You may use anti-static
+        wrist straps with grounding wire to protect your electronics.
+    - question: Tingiring tayahan
+      choices:
+      - choice: Differential calculus
+        isCorrect: 1
+      - choice: Differentiation
+        isCorrect: 0
+      - choice: Differential equation
+        isCorrect: 0
+      trivia: You differentiate to compute for the current flowing through capacitor
+        and voltage across an inductor using the rules of differential calculus.
+    - question: Tugoy
+      choices:
+      - choice: Sine wave
+        isCorrect: 0
+      - choice: Oscillation
+        isCorrect: 1
+      - choice: Integrator
+        isCorrect: 0
+      trivia: An oscillator produces a continuously alternating or oscillating waveform
+        without any input.
+    - question: Dagisog
+      choices:
+      - choice: Furnace
+        isCorrect: 0
+      - choice: Transformer
+        isCorrect: 0
+      - choice: Electric motor
+        isCorrect: 1
+      trivia: 'The parts of an electric motor are rotor, commutator, brushes, axle,
+        field magnet, and supply. '
+    - question: Transformer
+      choices:
+      - choice: Handugan
+        isCorrect: 0
+      - choice: Palitab
+        isCorrect: 1
+      - choice: Tahasan
+        isCorrect: 0
+      trivia: Through electromagnetic induction, the transformer transfers electrical
+        energy from one electric circuit to another without changing the frequency.
+    - question: Tinggalitab
+      choices:
+      - choice: Battery
+        isCorrect: 1
+      - choice: Soldering iron
+        isCorrect: 0
+      - choice: MOSFET
+        isCorrect: 0
+      trivia: Because of battery, your dad can move the car, your mom can use home
+        appliances, and you can play this game!
+    - question: Wire
+      choices:
+      - choice: Likumin
+        isCorrect: 0
+      - choice: Dahanan
+        isCorrect: 0
+      - choice: Kawad
+        isCorrect: 1
+      trivia: 'Electronics have unsung heroes that make electronic components and
+        all of us connected: wires.'
+    - question: Talap
+      choices:
+      - choice: Telegram
+        isCorrect: 0
+      - choice: Television
+        isCorrect: 1
+      - choice: Telekinesis
+        isCorrect: 0
+      trivia: 'How can one utilize electronic communications to inform, educate and
+        entertain? That''s the superpower televisions possess! '
+    - question: Ground
+      choices:
+      - choice: Habsan
+        isCorrect: 0
+      - choice: Babaran
+        isCorrect: 0
+      - choice: Sayad
+        isCorrect: 1
+      trivia: Don't make your parents get shocked at your current behavior! You're
+        grounded until you learn how to conduct yourself! (no pun intended)
+    - question: Telegram
+      choices:
+      - choice: Mangaaghimuan
+        isCorrect: 0
+      - choice: Ulyabid
+        isCorrect: 0
+      - choice: Pahatidkawad
+        isCorrect: 1
+      trivia: A telegram is a message sent electronically and then printed and delivered
+        to someone.
+    - question: Tachometer
+      choices:
+      - choice: Inugsukat
+        isCorrect: 1
+      - choice: Aliguwang
+        isCorrect: 0
+      - choice: Siglamin
+        isCorrect: 0
+      trivia: A tachometer is a sensor device used to measure the rotation speed of
+        an object such as the engine shaft in a car.
+    - question: Haykap
+      choices:
+      - choice: Firewall
+        isCorrect: 0
+      - choice: Virus
+        isCorrect: 1
+      - choice: Password
+        isCorrect: 0
+      trivia: When malicious programs infect your computer, the integrity of your
+        data may be compromised. Invest in antivirus software to protect yourself.
+    - question: Disc
+      choices:
+      - choice: Malalibay
+        isCorrect: 0
+      - choice: Maupay
+        isCorrect: 0
+      - choice: Dalipay
+        isCorrect: 1
+      trivia: The compact disc was the king of all music storage devices until it
+        was dethroned by peer-to-peer sharing, MP3 players, and streaming services.
+--- !u!4 &790577959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790577957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.055074, y: 885.9145, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
