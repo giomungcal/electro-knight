@@ -2,10 +2,10 @@
 
 Made with the collective effort of a team of 5, namely:
 
-**Back End Programmer: Heherson I. Domael
-Front End Programming, UI/UX Designer, Animator: Me, Giomar C. Mungcal
-Sounds Engineer: Karl Vincent A. Fonte
-Assets Manager: Vhinny Angelyque V. Molina**
+Back End Programmer: Heherson I. Domael  
+Front End Programming, UI/UX Designer, Animator: Me, Giomar C. Mungcal  
+Sounds Engineer: Karl Vincent A. Fonte  
+Assets Manager: Vhinny Angelyque V. Molina  
 
 ### Developed with Unity Engine using C#
 
